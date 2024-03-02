@@ -3,6 +3,9 @@ import { MdOutlineMusicNote } from "react-icons/md";
 import { FaGamepad } from "react-icons/fa";
 import { LuNewspaper } from "react-icons/lu";
 import { LuTrophy } from "react-icons/lu";
+import { PiYoutubeLogoLight } from "react-icons/pi";
+import { SiYoutubeshorts } from "react-icons/si";
+import { TbBrandYoutubeKids } from "react-icons/tb";
 
 export const sidebarItems = [
    {
@@ -34,17 +37,17 @@ export const sidebarItems = [
 
 export const studioItems = [
    {
-      icon: <BsFire />,
+      icon: <PiYoutubeLogoLight />,
       title: "Youtube Studio",
       path: "/youtube-studio"
    },
    {
-      icon: <BsFire />,
+      icon: <SiYoutubeshorts />,
       title: "Youtube Musik",
       path: "/youtube-musik"
    },
    {
-      icon: <BsFire />,
+      icon: <TbBrandYoutubeKids />,
       title: "Youtube Kids",
       path: "/youtube-kids"
    },

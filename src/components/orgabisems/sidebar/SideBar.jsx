@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../atoms/logo/Logo'
 import MenuItems from '../../atoms/itemsidebar/MenuItems'
+import Studios from '../../atoms/itemsidebar/Studios'
 
 const SideBar = ({ isOpen }) => {
   return (
@@ -10,6 +11,9 @@ const SideBar = ({ isOpen }) => {
         <MenuItems />
       </div>
       <div className="w-full border-[1px] border-gray-500"></div>
+      <div className="px-5 mt-2">
+        <Studios />
+      </div>
     </div>
   )
 }

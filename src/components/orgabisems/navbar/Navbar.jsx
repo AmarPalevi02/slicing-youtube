@@ -10,7 +10,7 @@ const Navbar = ({onTogle}) => {
    const pathName = path.pathname
 
    return (
-      <div className="mt-4 flex gap-2 overflow-x-auto flex-row text-nowrap items-center">
+      <div className="mt-4 flex gap-2 overflow-x-auto flex-row text-nowrap items-center scrollbar-hide">
          <button
             className="bg-neutral-800 py-2 px-3 rounded-sm"
             onClick={onTogle}
