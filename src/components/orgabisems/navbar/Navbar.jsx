@@ -1,25 +1,19 @@
-import React, { useState } from 'react'
-import SideBar from '../sidebar/SideBar';
+import React from 'react'
 
 import { FaRegCompass } from "react-icons/fa6";
 import { navLink } from '../../../constants/navbarLink';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({onTogle}) => {
    const navigate = useNavigate()
    const path = useLocation()
    const pathName = path.pathname
 
-   const [isTogle, setIsTogle] = useState(false)
-
-   const handleIsTogle = () => {
-      setIsTogle(!isTogle)
-   }
    return (
       <div className="mt-4 flex gap-2 overflow-x-auto flex-row text-nowrap items-center">
          <button
             className="bg-neutral-800 py-2 px-3 rounded-sm"
-            onClick={handleIsTogle}
+            onClick={onTogle}
          >
             <FaRegCompass
                className='text-white text-2xl'
@@ -38,7 +32,6 @@ const Navbar = () => {
                )
             })}
          </div>
-         {isTogle && <SideBar />}
       </div>
    )
 }

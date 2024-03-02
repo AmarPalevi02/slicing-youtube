@@ -3,12 +3,12 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { LuDot } from "react-icons/lu";
 import { cards } from '../../../constants/cards'
 
-const Card = () => {
+const Card = ({style}) => {
    return (
       <>
          {cards.map((item, i) => {
             return (
-               <div key={i} className='mb-2  pb-1'>
+               <div key={i} className={`mb-2  pb-1 ${style}`}>
                   <div className="w-full h-[14rem] bg-gray-400">
                      <img
                         src={item.thumbnail}
