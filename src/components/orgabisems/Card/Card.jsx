@@ -8,7 +8,7 @@ const Card = ({style}) => {
       <>
          {cards.map((item, i) => {
             return (
-               <div key={i} className={`mb-2  pb-1 ${style}`}>
+               <div key={i} className={`mb-2  pb-1 ${style} relative`}>
                   <div className="w-full h-[14rem] bg-gray-400">
                      <img
                         src={item.thumbnail}
@@ -16,7 +16,7 @@ const Card = ({style}) => {
                         className='w-full h-full object-cover object-center '
                      />
                   </div>
-                  <div className="flex mt-2 px-3 gap-2">
+                  <div className="flex mt-2 px-2 gap-2">
                      <div className="">
                         <div className="w-11 h-11 rounded-full bg-gray-400">
                            <img src={item.profile}

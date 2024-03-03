@@ -32,4 +32,84 @@ export const cards = [
       view: 37,
       hour: '4 bulan yang lalu'
    }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
+   {
+      profile: ac,
+      thumbnail: acTh,
+      title: "Margin Call Episode 4 - Bitcoin Terbang ke $30.000",
+      owner: "Akademi Crypto",
+      view: 37,
+      hour: '4 bulan yang lalu'
+   }, 
 ]

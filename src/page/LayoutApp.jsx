@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import SearchBar from '../components/orgabisems/searchbar/SearchBar'
-import Navbar from '../components/orgabisems/navbar/Navbar'
 import Beranda from './Beranda'
+import NavbarSide from '../components/orgabisems/navbar/NavbarSide'
 
 const LayoutApp = () => {
    const [isTogle, setIsTogle] = useState(false)
@@ -17,13 +17,12 @@ const LayoutApp = () => {
    }
 
    return (
-      <div
-         className={`w-[100%] h-[100vh] overflow-auto bg-black`}>
-         <div className={`w-full px-2 mb-3 ${isTogle ? 'bg-black opacity-20' : 'bg-black'}`}>
-            <SearchBar />
-            <Navbar onTogle={handleIsTogel} />
+      <div className={`flex w-[100%] justify-between h-[100vh] overflow-auto bg-black`}>
+         <NavbarSide />
+         <div className={` w-full md:w-[calc(100%-100px)] px-2 mb-3 relative`}>
+            <SearchBar onTogle={handleIsTogel} isTogle={isTogle} />
+            <Beranda isTogle={isTogle} closeSideBar={handleCloseTogle} />
          </div>
-         <Beranda isTogle={isTogle} closeSideBar={handleCloseTogle} />
       </div>
    )
 }
