@@ -19,7 +19,7 @@ const LayoutApp = () => {
    return (
       <div className={`flex w-[100%] justify-between h-[100vh] overflow-auto bg-black`}>
          <NavbarSide />
-         <div className={` w-full md:w-[calc(100%-100px)] px-2 mb-3 relative`}>
+         <div className={` w-full md:w-[calc(100%-90px)] px-2 mb-3 relative`}>
             <SearchBar onTogle={handleIsTogel} isTogle={isTogle} />
             <Beranda isTogle={isTogle} closeSideBar={handleCloseTogle} />
          </div>
