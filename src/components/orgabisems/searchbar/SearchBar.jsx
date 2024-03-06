@@ -8,14 +8,14 @@ import InputSearch from './InputSearch';
 
 const SearchBar = ({onTogle, handleIsTogel}) => {
    return (
-      <div className="mb-2">
+      <div className="mb-2 md:pr-5">
          <div className='flex justify-between items-center pt-2'>
             <Logo />
             <InputSearch />
             <div className="flex gap-2 items-center">
                <MdConnectedTv className='text-white text-2xl font-semibold' />
                <IoIosNotificationsOutline className='text-white text-2xl font-semibold' />
-               <button>
+               <button className='md:hidden'>
                   <IoSearchOutline className='text-white text-2xl font-semibold' />
                </button>
             </div>
